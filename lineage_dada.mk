@@ -12,17 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from generic device
-$(call inherit-product, device/xiaomi/generic/device.mk)
+$(call inherit-product, device/xiaomi/dada/device.mk)
 
-PRODUCT_DEVICE := generic
-PRODUCT_NAME := lineage_generic
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := mainline
+PRODUCT_DEVICE := dada
+PRODUCT_NAME := lineage_dada
+PRODUCT_BRAND := xiaomi
+PRODUCT_MODEL := 24129PN74G
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="missi-user Baklava BP22.250124.009 OS2.0.250327.1.WOCMIXM.PRE-DPP release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/missi/missi:Baklava/BP22.250124.009/OS2.0.250327.1.WOCMIXM.PRE-DPP:user/release-keys
+    BuildDesc="missi-user 15 AQ3A.240812.002 OS2.0.102.0.VOCIDXM release-keys" \
+    BuildFingerprint=Xiaomi/dada_global/dada:15/AQ3A.240812.002/OS2.0.102.0.VOCIDXM:user/release-keys \
+    DeviceName=dada \
+    DeviceProduct=24129PN74G \
+    SystemDevice=dada \
+    SystemName=24129PN74G
