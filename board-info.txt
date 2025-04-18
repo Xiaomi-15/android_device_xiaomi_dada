@@ -1,1 +1,1 @@
-require board=sun|dada
+require board=sun|dada|dadain
