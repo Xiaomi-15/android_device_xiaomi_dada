@@ -3389,7 +3389,6 @@ vendor/lib64/libqtikeymint.so
 
 # Sensors
 odm/lib64/sensors.touch.detect.so
-vendor/bin/hw/android.hardware.sensors-service.multihal
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate-service
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
