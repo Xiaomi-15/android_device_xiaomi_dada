@@ -3520,9 +3520,8 @@ vendor/lib64/hw/vendor.qti.hardware.soter-impl.so
 vendor/lib64/vendor.qti.hardware.soter-V1-ndk.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal-service.qti
+vendor/bin/hw/
 vendor/etc/init/android.hardware.thermal-service.qti.rc
-vendor/etc/vintf/manifest/android.hardware.thermal-service.qti.xml
 
 # Thermal (Qualcomm)
 system_ext/lib64/vendor.qti.hardware.limits@1.0.so
