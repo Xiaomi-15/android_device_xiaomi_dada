@@ -3641,10 +3641,9 @@ vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 
 # USB
-vendor/bin/hw/android.hardware.usb.gadget-service.qti
 vendor/etc/init/android.hardware.usb-service.qti.rc
 vendor/etc/init/android.hardware.usb.gadget-service.qti.rc
-vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.qti.xml
+
 
 # Vibrator
 odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
