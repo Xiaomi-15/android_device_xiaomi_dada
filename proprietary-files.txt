@@ -2756,12 +2756,10 @@ vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
 # Health
-vendor/bin/hw/android.hardware.health-service.qti
 vendor/bin/hw/vendor.xiaomi.hardware.micharge-service
 vendor/bin/batterysecret
 vendor/etc/init/android.hardware.health-service.qti.rc
 vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc
-vendor/etc/vintf/manifest/android.hardware.health-service.qti.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge.xml
 vendor/lib64/vendor.xiaomi.hardware.micharge-V2-ndk.so
 
