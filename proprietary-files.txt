@@ -3553,13 +3553,11 @@ vendor/bin/bootmode
 vendor/bin/boringssl_self_test64
 vendor/bin/btconfig
 vendor/bin/ccid_daemon_nr
-vendor/bin/checkpoint_gc
 vendor/bin/cnss_cli
 vendor/bin/cnss_diag
 vendor/bin/color
 vendor/bin/color_sampling_test
 vendor/bin/color_sampling_tool
-vendor/bin/cplay
 vendor/bin/csaudiotransfer_test
 vendor/bin/ctlogger
 vendor/bin/ctrlapp_dut
@@ -3576,7 +3574,6 @@ vendor/bin/displayfeature
 vendor/bin/dlsc
 vendor/bin/dppdaemon
 vendor/bin/drm_sample_app
-vendor/bin/dumpsys
 vendor/bin/e_loop
 vendor/bin/edgnss-daemon
 vendor/bin/embmsslServer
@@ -3604,7 +3601,6 @@ vendor/bin/iperf3.zc
 vendor/bin/ipp_key_gen
 vendor/bin/ipp_test
 vendor/bin/irsc_util
-vendor/bin/iw
 vendor/bin/loadalgo
 vendor/bin/mbnota
 vendor/bin/mcs_test
@@ -3618,7 +3614,6 @@ vendor/bin/mpamd
 vendor/bin/mtb
 vendor/bin/myftm
 vendor/bin/nicmd
-vendor/bin/nqnfcinfo
 vendor/bin/nv_mac
 vendor/bin/pktlogconf
 vendor/bin/pm-proxy
